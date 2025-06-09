@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url("Netflix Clone Important Files/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+.main nav{
+    display: flex;
+    height: 62px;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+nav span img{
+    width: 130px;
+    padding: 15px;
+}
+
+.main .text{
+    height: calc(100% - 62px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    text-align: center;
+}
+
+.text> :first-child{
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.text> :nth-child(2){
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.text> :nth-child(3){
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.separation{
+    height: 5px;
+    background-color: gray;
+    position: relative;
+    opacity: 0.2;
+}
+
+.red-btn{
+    padding: 9px 11px 9px 11px;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 7px;
+}
+
+.red-btn-top{
+    padding: 5px 20px;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 7px;
+}
+
+.english{
+    padding: 5px 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 7px;
+    border: 1px solid rgba(217, 213, 213, 0.481);
+    background-color: rgba(23, 23, 23, 0.3);
+}
+
+.text input{
+    padding: 9px 89px 9px 4px;
+    border: 1px solid rgba(217, 213, 213, 0.481);
+    background-color: rgba(23, 23, 23, 0.5);
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 7px;
+}
+
+.btn-flex{
+    display: flex;
+    gap: 7px;
+}
+
+.first{
+    color: white;
+    margin: 60px;
+}
+
+.first .button1{
+    padding: 5px 20px;
+    margin: 1px 0px 0px 25px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 7px;
+    border: 1px solid rgba(217, 213, 213, 0.481);
+    background-color: rgba(23, 23, 23, 0.3);
+}
+
+.first .button2{
+    padding: 5px 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 7px;
+    border: 1px solid rgba(217, 213, 213, 0.481);
+    background-color: rgba(23, 23, 23, 0.3);
+}
+
+.first .text{
+    margin: 1px 0px 0px 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.first .box{
+    margin: 27px;
+    display: flex;
+    justify-content: center;
+}
+
+.first .box img{
+    margin: 5px;
+}
+
+.second{
+    color: white;
+    margin: 60px;
+    height: 150px;
+}
+
+.second .text{
+    margin: 1px 0px 0px 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.second .container{
+    width: 90vw;
+    height: 200px;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    gap: 20px;
+}
+
+.second .container .I ,.II, .III, .IV{
+    width: 20vw;
+    height: 20vh;
+    border: 2px solid white;
+    position: relative;
+    align-content: center;
+    text-align: center;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+}
+
+.third{
+    color: white;
+    margin: 60px 60px -30px 60px;
+}
+
+.third .text{
+    margin: 1px 0px 0px 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.third .container{
+    padding: 5px;
+    /* border: 2px solid white; */
+    height: 400px;
+}
+
+.third .container .box{
+    height: 50px;
+    border: 2px solid white;
+    margin: 5px;
+    padding: 0px 12px;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    font-size: 20px;
+    align-content: center;
+}
+
+footer{
+    margin: 60px;
+    color: white;
+}
